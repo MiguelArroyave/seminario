@@ -1,17 +1,27 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 3
+      Mi cuenta
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 3</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <app-explore-container name="Tab 3 page"></app-explore-container>
+  <ion-list [inset]="true">
+    <ion-item>
+      <ion-input label="id" disabled="true" labelPlacement="fixed" value="11111111111"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input label="Nombre" disabled="true" labelPlacement="fixed" value="Miguel arroyave"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input label="Email" disabled="true" labelPlacement="fixed" value="migue@gmail.com"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input label="Password" type="password" disabled="true" labelPlacement="fixed" value="jadfjadlskf"></ion-input>
+    </ion-item>
+    <ion-item>
+     <ion-label>Salir</ion-label> <ion-button  expand="block" (click)="salir()" color="primary"><ion-icon name="arrow-forward-outline"></ion-icon></ion-button>
+    </ion-item>
+  </ion-list>
 </ion-content>
