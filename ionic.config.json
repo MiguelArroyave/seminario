@@ -1,0 +1,7 @@
+{
+  "name": "ionicylooback",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
